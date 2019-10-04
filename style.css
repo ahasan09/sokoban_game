@@ -1,0 +1,72 @@
+body {
+	background-image: url(assets/marioback.jpg);
+	background-repeat: no-repeat;
+}
+#mazeDiv {
+	width: 256px;
+	height: 288px;
+	margin: 32px auto;
+}
+
+.rowDiv {
+	height: 32px;
+	margin: 0;
+	padding: 0;
+}
+
+.cellDiv {
+	display: inline-block;
+	height: 32px;
+	width: 32px;
+	margin: 0;
+	padding: 0;
+}
+
+.hall {
+	background-image: url(assets/free.gif);
+	background-repeat: no-repeat;
+}
+
+.wall {
+	background-image: url(assets/wall.gif);
+	background-repeat: no-repeat;
+}
+
+.start {
+	background-image: url(assets/walkdown.gif);
+	background-repeat: no-repeat;
+}
+
+.boxDestination {
+	background-image: url(assets/target.gif);
+	background-repeat: no-repeat;
+}
+
+.box {
+	background-image: url(assets/box.gif);
+	background-repeat: no-repeat;
+}
+
+.player {
+	background-image: url(assets/walkdown.gif);
+	background-repeat: no-repeat;
+}
+
+#startNewGame {	
+	display: flex;
+	justify-content: center;
+}
+
+.btn {
+	background-color: DodgerBlue;
+	border: none;
+	color: white;
+	padding: 12px 16px;
+	font-size: 16px;
+	cursor: pointer;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+	background-color: RoyalBlue;
+  }
